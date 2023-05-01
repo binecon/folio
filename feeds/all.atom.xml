@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>alpha</title><link href="http://localhost:8000/" rel="alternate"></link><link href="http://localhost:8000/feeds/all.atom.xml" rel="self"></link><id>http://localhost:8000/</id><updated>2023-04-15T00:00:00+02:00</updated><entry><title>Projects</title><link href="http://localhost:8000/test-article2.html" rel="alternate"></link><published>2023-04-15T00:00:00+02:00</published><updated>2023-04-15T00:00:00+02:00</updated><author><name>bine</name></author><id>tag:localhost,2023-04-15:/test-article2.html</id><summary type="html">&lt;p&gt;Some summary of the test article&lt;/p&gt;</summary><content type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Some text about my projects.
+Some more text here. Text here will be generated with markdown.
+I wonder how I will include grid layout in here???
+Some text about my projects.
+Some more text here. Text here will be generated with markdown.
+I wonder how I will include grid layout in here???
+Some text about my projects.
+Some more text here. Text here will be generated with markdown.
+I wonder how I will include grid layout in here???
+Some text about my projects.
+Some more text here. Text here will be generated with markdown.
+I wonder how I will include grid layout in here???&lt;/p&gt;
+&lt;p&gt;&lt;img alt="back button" src="/images/UI_UX.png" title="Text to show on mouseover"&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Some text about my projects.
+Some more text here. Text here will be generated with markdown.
+I wonder how I will include grid layout in here???
+Some text about my projects.
+Some more text here. Text here will be generated with markdown.
+I wonder how I will include grid layout in here???
+Some text about my projects.
+Some more text here. Text here will be generated with markdown.
+I wonder how I will include grid layout in here???
+Some text about my projects.
+Some more text here. Text here will be generated with markdown.
+I wonder how I will include grid layout in here???&lt;/p&gt;</content><category term="blog"></category></entry></feed>

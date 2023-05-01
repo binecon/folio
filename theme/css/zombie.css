@@ -1,0 +1,18 @@
+.photo {
+    width: 3em;
+    height: 3em;
+}
+
+.photo {
+    width: 8em;
+    height: 10em;
+}
+
+.bo {
+    text-align: center;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #b50707;
+}
