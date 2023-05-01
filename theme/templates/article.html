@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+<!-- prettier-ignore -->
+{% block title %}UNTERWEGS{{ article.title }}{% endblock %}
+{% block url %}{{ SITEURL }}/{{ article.url }}{% endblock %}
+
+{% if article.summary %}
+{% block description %}{{ article.summary | striptags | safe | truncate(300) }}{% endblock %}
+{% endif %}
+
+{% if article.image %}
+{% block image %}{{ SITEURL }}/images/{{ article.image }}{% endblock %}
+{% endif %}
+
+{% block content %}
+<div class="container">
+    <main role="main" class="container  width-8 bg-danger">
+        <article class="blog-post bg-success">
+            <header class="my-5">
+                <!--<h4>
+                    <p  href="{{ SITEURL }}/{{ article.url }}"
+                        class="text-dark"
+                        rel="bookmark"
+                        title="Permalink to {{ article.title|striptags }}"
+                        >{{ article.title }}</p
+                    >
+                </h4>          -->
+            </header>
+            
+            <div class="article-content bg-warning">
+                <h3 class="mb-4">
+                {{ article.title }}</h4>
+                </h3>
+                {{ article.content }}
+            </div>
+        </article>
+    </main>
+</div>
+{% endblock %}

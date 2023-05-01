@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+<!-- prettier-ignore -->
+{% block title %}ZUHAUSE{% endblock %}
+{% block description %}explaination{% endblock %}
+
+<!-- prettier-ignore -->
+{% block extra_head -%}
+<style>
+    body {
+        background: #fff5d1;
+    }
+</style>
+
+{% endblock %}
+
+<!-- prettier-ignore -->
+
+{% block content %}
+<div class="container">
+    
+    {% for article in articles_page.object_list %}
+    <article class="container row mt-4 blog-post bg-info p-3">
+        <div class="col-sm mb-4">
+            Some paragraph here including the link to the 
+            <a
+                href="{{ SITEURL }}/{{ article.url }}"
+                class="text-dark"
+                rel="bookmark"
+                title="{{ article.title|striptags }}"
+                >{{ article.title }}</a
+            >
+          
+            followed by a different paragraph.<br/>
+            A paragraph here text text text <br/>
+            And another paragraph here.
+        </div>
+            <div class="col-sm bg-primary width-25">
+                <img class="float-right" src="{{ SITEURL }}/images/UX_vs_UI.jpg" />
+            </div>
+        </div>
+        
+       
+        <!--<img src="{{ SITEURL }}/images/UX_vs_UI.png" class="photo"/>-->
+                
+        <!-- do not show date and author on home page
+            <p class="text-muted">{{ article.locale_date }} by <a href="{{ SITEURL }}">{{ AUTHOR }}</a></p>
+        <p>
+            {{ article.summary|striptags }}
+            <a href="{{ SITEURL }}/{{ article.url }}">Read more...</a>
+        </p>-->
+    </article>
+    
+    {% endfor %}
+</div>
+{% endblock content %}
+
