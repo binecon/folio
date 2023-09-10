@@ -8,7 +8,7 @@
 {% block extra_head -%}
 <style>
     body {
-        background: #fff5d1;
+        background: #ffffff;
     }
 </style>
 
@@ -20,9 +20,14 @@
 <div class="container">
     
     {% for article in articles_page.object_list %}
-    <article class="container row mt-4 blog-post bg-info p-3">
+    <article class="container row mt-4 blog-post p-3">
         <div class="col-sm mb-4">
-            Some paragraph here including the link to the 
+            <h1>freelance UX and web design</h1>
+        </br>
+            Hi, I support conscious organisations and individuals by enhancing
+            their websites' sustainability and I create new, value-inspired digital services. 
+            </br></br>
+            Please see my 
             <a
                 href="{{ SITEURL }}/{{ article.url }}"
                 class="text-dark"
@@ -30,25 +35,18 @@
                 title="{{ article.title|striptags }}"
                 >{{ article.title }}</a
             >
-          
-            followed by a different paragraph.<br/>
-            A paragraph here text text text <br/>
-            And another paragraph here.
+            </br></br>
+            Let's create meaningful products. First, we'll analyse your requirements. 
+            Next, we'll develop solutions and test them with your target audience. 
+            Results are handed over to you in a practical overview, along with your optimised website.
+            </br></br>
+            Get in contact: sabcon@posteo.de
+        
         </div>
-            <div class="col-sm bg-primary width-25">
+            <div class="col-sm width-25">
                 <img class="float-right" src="{{ SITEURL }}/images/UX_vs_UI.jpg" />
             </div>
         </div>
-        
-       
-        <!--<img src="{{ SITEURL }}/images/UX_vs_UI.png" class="photo"/>-->
-                
-        <!-- do not show date and author on home page
-            <p class="text-muted">{{ article.locale_date }} by <a href="{{ SITEURL }}">{{ AUTHOR }}</a></p>
-        <p>
-            {{ article.summary|striptags }}
-            <a href="{{ SITEURL }}/{{ article.url }}">Read more...</a>
-        </p>-->
     </article>
     
     {% endfor %}

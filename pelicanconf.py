@@ -35,6 +35,6 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 
-THEME = '/Users/sc/projects/alpha/theme'
+THEME = '/Users/sc/Documents/projects/alpha/theme'
 
 

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 <!-- prettier-ignore -->
-{% block title %}UNTERWEGS{{ article.title }}{% endblock %}
+{% block title %}{{ article.title }}{% endblock %}
 {% block url %}{{ SITEURL }}/{{ article.url }}{% endblock %}
 
 {% if article.summary %}
@@ -14,8 +14,8 @@
 
 {% block content %}
 <div class="container">
-    <main role="main" class="container  width-8 bg-danger">
-        <article class="blog-post bg-success">
+    <main role="main" class="container  width-8">
+        <article class="blog-post">
             <header class="my-5">
                 <!--<h4>
                     <p  href="{{ SITEURL }}/{{ article.url }}"
@@ -27,7 +27,7 @@
                 </h4>          -->
             </header>
             
-            <div class="article-content bg-warning">
+            <div class="article-content">
                 <h3 class="mb-4">
                 {{ article.title }}</h4>
                 </h3>
