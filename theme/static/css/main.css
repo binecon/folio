@@ -111,6 +111,9 @@ a:hover {
 .blog-post-title:hover {
     text-decoration: none;
 }
+.blog-post-title {
+    text-decoration: none;
+}
 
 /* Start page */
 
@@ -133,3 +136,4 @@ a:hover {
 .vote-link:hover {
     fill: #2873a6;
 }
+

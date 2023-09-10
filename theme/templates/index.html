@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 <!-- prettier-ignore -->
-{% block title %}ZUHAUSE{% endblock %}
+{% block title %}Portfolio 2023{% endblock %}
 {% block description %}explaination{% endblock %}
 
 <!-- prettier-ignore -->
@@ -19,37 +19,37 @@
 {% block content %}
 <div class="container">
     
-    {% for article in articles_page.object_list %}
+    
     <article class="container row mt-4 blog-post p-3">
         <div class="col-sm mb-4">
-            <h1>freelance UX and web design</h1>
+            <h1>UX & Service Design</h1>
         </br>
-            Hi, I support conscious organisations and individuals by enhancing
-            their websites' sustainability and I create new, value-inspired digital services. 
+            Hi, I'm Sabine.
+            I support conscious customers by enhancing
+            their websites' sustainability and I deliver ethically inspired digital services. 
             </br></br>
-            Please see my 
-            <a
-                href="{{ SITEURL }}/{{ article.url }}"
-                class="text-dark"
-                rel="bookmark"
-                title="{{ article.title|striptags }}"
-                >{{ article.title }}</a
-            >
-            </br></br>
-            Let's create meaningful products. First, we'll analyse your requirements. 
-            Next, we'll develop solutions and test them with your target audience. 
-            Results are handed over to you in a practical overview, along with your optimised website.
-            </br></br>
-            Get in contact: sabcon@posteo.de
-        
+            Let's create meaningful products.
+            <p class="font-weight-bold">Contact me: <a class="text-dark font-weight-light" href="mailto:sabcon@posteo.de">sabcon@posteo.de</a>
+            </p></br></br>
+            <h3 class="text-primary">PROJECTS:</h3>
+            {% for article in articles_page.object_list %}
+            <p><a
+            href="{{ SITEURL }}/{{ article.url }}"
+            class="text-dark font-weight-light"
+            rel="bookmark"
+            title="{{ article.title|striptags }}"
+            ><h4><ul><li>{{ article.title }}</h4></li></ul></a>
+            <ul>{{ article.summary }}</ul></p>
+            {% endfor %}      
         </div>
+        
             <div class="col-sm width-25">
                 <img class="float-right" src="{{ SITEURL }}/images/UX_vs_UI.jpg" />
             </div>
         </div>
     </article>
     
-    {% endfor %}
+   
 </div>
 {% endblock content %}
 

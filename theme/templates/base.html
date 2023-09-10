@@ -65,23 +65,15 @@
                     <img id="test" src="{{ SITEURL }}/images/two.png" class="logo mr-2" alt="back" />
                 </a>
                
-              <!--  if(window.location.href == "http://localhost:8000"){
-                    document.getElementById('test').display = 'none'};-->
-                
-                <script>
-                if (/test-article2.html/.test(window.location.href)) {
-                document.getElementById('test').style.display = 'block';}
-                else {
-                document.getElementById('test').style.display = 'none';}
-                </script>
 
                 <script>
-                if (/index.html/.test2(window.location.href)) {
-                document.getElementById('test2').style.display = 'none';}
-                else {
-                document.getElementById('test2').style.display = 'block';}
-                </script>
-               
+                    if (/herzbahnhof.html/.test(window.location.href)) {
+                    document.getElementById('test').style.display = 'block';}
+                    else (/index.html/.test(window.location.href)) {
+                    document.getElementById('test').style.display = 'none';}
+                    </script>
+    
+                
 
                 <!--<ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
@@ -101,7 +93,7 @@
         <!-- Footer -->
         <footer class="footer mt-auto py-3 site-footer text-center text-muted">
             <div class="container">
-                <span class=""><a>check it out: page size: 800KB</a></span>
+                <span class=""><a>sabcon © 2023</a></span>
             </div>
         </footer>
 

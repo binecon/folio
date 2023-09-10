@@ -8,6 +8,11 @@ TIMEZONE = 'Europe/Rome'
 
 DEFAULT_LANG = 'en'
 
+EXTRA_PATH_METADATA = {
+    'favicon.ico': {'path': 'favicon.ico'},  # and this
+}
+
+
 # Feed generation is usually not desired when developing
 #FEED_ALL_ATOM = None
 #CATEGORY_FEED_ATOM = None
@@ -35,6 +40,6 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 
-THEME = '/Users/sc/Documents/projects/alpha/theme'
+THEME = '/Users/sc/Documents/projects/portfolio2023/theme'
 
 
