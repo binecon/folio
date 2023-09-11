@@ -23,10 +23,10 @@ Summary: Connecting mobile users with an outdoor garden space
 
 **RESEARCH**
 
-**Data collection with interviews and questionnaires:**
+**Data collection with interviews and questionaires:**
 
 Qualitative data from interviews shows previous connection.
-Connection with nature in the participants showed that they see inherent regularities. Searching for them. System requirement: Simulate the process of understanding how each plants and insects are interconnected. Required some followup ***research into natural ecosystems:*** in order to reproduce them in the app design.
+Connection with nature in the participants showed that they see inherent regularities. Searching for them. System requirement: Simulate the process of understanding how each plants and insects are interconnected. Required some followup *research into natural ecosystems:* in order to reproduce them in the app design.
 
 Different kinds of questionaires were used to
 
@@ -35,16 +35,28 @@ Different kinds of questionaires were used to
 
 **User Flow:**
 
-A user trajectory was created based on a path on which a group of 'guilding' garden plants are visited, such as thyme, borage, and broccoli. On the mobile device, screens and camera alternate while the user is exploring the outdoor surrounding. The screens show user instructions and the camera is used for automatic recording in order to scan physical markers which trigger the AR experience. The AR layer that the users access instructs to directly engage with the garden plants, e.g. "smell", or "taste".
+A user trajectory was created upon a path on which a group of 'guilding' garden plants can be visited, such as thyme, borage, and broccoli. On the mobile device, screens and camera alternate while the user is exploring the outdoor surrounding. The screens show user instructions and the camera is used for automatic recording in order to scan physical markers which trigger the AR experience. The AR layer that the users access instructs to directly engage with the garden plants, e.g. "smell", or "taste".
 
 ![wf](/images/userflow.png "gardenapp userflow") 
 
 ------
 
-**USER TESTING**
+**USER TESTING & EVALUATION**
 
-User prototype testing showed that engagement with the garden having a good experience and spent time with it.
+**Hi-fi prototype testing:**
+
+User testing showed that engagement with the garden having a good experience and spent time with it.
+
+
 ![map](/images/gardenmap.png "outdoor testing") 
+
+**Questionaire**
+
+After testing the users were requested to answer a AttrakDiff questionaire. Theae were the results:
++ very attractive
++ educative
++ intriguing
++ innovative
 
 -----
 
