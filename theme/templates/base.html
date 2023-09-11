@@ -63,13 +63,17 @@
                     >
                     <img id="test" src="{{ SITEURL }}/images/two.png" class="logo mr-2" alt="back" />
                 </a>
+              <!-- 
+                    <img src="{{ SITEURL }}/images/home_rosa.png" />
+                -->
                
               <!--  if(window.location.href == "http://localhost:8000"){
                     document.getElementById('test').display = 'none'};-->
                 
 
                 <script>
-                    if (/herzbahnhof.html/.test(window.location.href)){
+                    if (/herzbahnhof.html/.test(window.location.href))
+                    {
                         document.getElementById('test').style.display='block';
                     }
                         else if (/gardenapp.html/.test(window.location.href))
@@ -78,12 +82,10 @@
                     }
                         else 
                         {
-                        document.getElementById('test').style.display='none';}
+                        document.getElementById('test').style.display='none';
+                    }
                 </script>
-
-               
-             
-
+                
             
                 <!--<ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
@@ -104,25 +106,10 @@
         <footer class="footer mt-auto py-3 site-footer text-center text-muted">
             <a class="ml-4 float-left" href="{{ SITEURL }}"
             >
-            <img id="test2" src="{{ SITEURL }}/images/one.png" class="logo mr-2" alt="back" />
+            <img id="back" src="{{ SITEURL }}/images/one.png" class="logo mr-2" alt="back" />
         </a>
-        <script>
-            if (/herzbahnhof.html/.test2(window.location.href)){
-                document.getElementById('test2').style.display='block';
-            }
-                else if (/gardenapp.html/.test2(window.location.href))
-                {
-                document.getElementById('test2').style.display='block';
-            }
-                else 
-                {
-                document.getElementById('test2').style.display='none';}
-        </script>
-       
-
-
             <div class="container">
-                <span class=""><a>sabcon © 2023</a></span>
+                <span class=""><a>SabCon © 2023</a></span>
             </div>
         </footer>
 
@@ -144,6 +131,8 @@
             crossorigin="anonymous"
         >
         </script>
+
+
         <!--<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/main.js"></script>-->
 
         <!-- Optional page specific scripts block -->
