@@ -1,5 +1,5 @@
 AUTHOR = 'bine'
-SITENAME = 'alpha'
+SITENAME = 'portfolio'
 SITEURL = 'http://localhost:8000'
 
 PATH = 'content'

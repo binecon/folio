@@ -55,6 +55,8 @@ Three test persons were asked for their preference regarding the nav items wordi
 
 Apart from the navigation bar, the other central element on the landing page is the idea posting form. Placed below in the center between past and future below the navigation, it can be recognised as the present dimension. I chose a yellow background, a signal colour, that it used on train station timetables to indicate departure times of trains. The font is in a style similar to the proprietary DB type. 
 
+
+
 **Logo:**
 
 I created a logo to communicate the uniqueness of the building as reported in the interviews with the Herzberg inhabitants. It shows a heart and the German abbreviation for train station inside, which refers to a pun made up from the words Herzberg and Bahnhof "Herzbahnhof". 
@@ -65,7 +67,7 @@ I created a logo to communicate the uniqueness of the building as reported in th
 
 **DEVELOPMENT**
 
-I implemented the website using Visual Studio Code and common web technologies (HTML, CSS, and JavaScript), but using as little client-side rendering as possible, for mindful energy use. For the input data via the form, I included a Google-Api an online spreadsheet to serve as a database for the user data.
+I implemented the website using Visual Studio Code and common web technologies (HTML, CSS, and JavaScript) while using as little client-side rendering as possible, for mindful energy use. I included a Google-Api for an online spreadsheet which serves as a database for user data inputted via the form.
 
 
 -----
