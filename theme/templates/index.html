@@ -22,28 +22,26 @@
     
     <article class="container row mt-4 blog-post p-3">
         <div class="col-sm mb-4">
-            <h1>UX Portfolio</h1>
-        </br>
+            <h1>Portfolio UX / UI / Dev</h1></br>
             Hi, I'm Sabine.
             I support conscious customers by enhancing
-            their websites' sustainability and I deliver ethically inspired digital designs. 
+            their websites' sustainability and I create ethically inspired digital designs. 
             </br></br>
-            <p class="font-weight-bold">Contact me: <a class="text-dark font-weight-light" href="mailto:sabcon@posteo.de">sabcon@posteo.de</a>
+            <p class="font-weight-bold text-primary">Contact me: <a href="mailto:sabcon@posteo.de" class="text-dark font-weight-light">sabcon@posteo.de</a>
             </p></br>
-            <h5 class="text-primary">Projects:</h5>
+            <p class="projects">PROJECTS:</p>
             {% for article in articles_page.object_list %}
             <p><a
             href="{{ SITEURL }}/{{ article.url }}"
             class="text-dark font-weight-light"
             rel="bookmark"
             title="{{ article.title|striptags }}"
-            ><h4><ul><li>{{ article.title }}</h4></li></ul></a>
-            <ul>{{ article.summary }}</ul></p>
+            ><h6 class="article_title"><li class="article_title">{{ article.title }} - {{ article.summary }}</h6></a></li>
+            </p>
             {% endfor %}      
         </div>
-        
-            <div class="col-sm width-25">
-                <img class="float-right" src="{{ SITEURL }}/images/UX_vs_UI.jpg" />
+            <div class="col-sm">
+                <img class="float-center" src="{{ SITEURL }}/images/bine_blauv2.png" />
             </div>
         </div>
     </article>

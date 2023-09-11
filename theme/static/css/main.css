@@ -115,6 +115,8 @@ a:hover {
     text-decoration: none;
 }
 
+
+
 /* Start page */
 
 .site-header {
@@ -137,3 +139,17 @@ a:hover {
     fill: #2873a6;
 }
 
+.article_title {
+    text-decoration: none;
+    color: rgb(99, 145, 218);
+}
+
+.contact {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.projects {
+    text-decoration: underline;
+   
+}

@@ -1,7 +1,7 @@
 Title: Garden App
 Date: 2023-09-10
 Slug: gardenapp
-Summary: Connecting mobile AR users with an outdoor garden space 
+Summary: Connecting mobile users with an outdoor garden space 
 
 **Connecting users with an outdoor garden space** 
 
@@ -44,11 +44,11 @@ A user trajectory was created based on a path on which a group of 'guilding' gar
 **USER TESTING**
 
 User prototype testing showed that engagement with the garden having a good experience and spent time with it.
-![map](/images/x.png "outdoor testing") 
+![map](/images/gardenmap.png "outdoor testing") 
 
 -----
 
-**LEARNINGS**
+**CONCLUSION & LEARNINGS**
 
 + Accesibility with AR is complex
 + Technical limitations
