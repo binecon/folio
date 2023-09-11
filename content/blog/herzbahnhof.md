@@ -59,10 +59,10 @@ Apart from the navigation bar, the other central element on the landing page is 
 
 I created a logo to communicate the uniqueness of the building as reported in the interviews with the Herzberg inhabitants. It shows a heart and the German abbreviation for train station inside, which refers to a pun made up from the words Herzberg and Bahnhof "Herzbahnhof". 
 
-![logo](/images/logo.png "herzbhf logo")
+![logo](/images/logo1.png "herzbhf logo")
 
 ----
 
 **DEVELOPMENT**
 
-I've implemented the website using Visual Studio Code and the common web technologies, using as little client-side rendering as possible. For the input data via the form, a Google-Api was used and an online spreadsheet serves as a database for the user data.
+I've implemented the website using Visual Studio Code and the common web technologies, using as little client-side rendering as possible, for mindful energy use. For the input data via the form, a Google-Api was used and an online spreadsheet serves as a database for the user data.
