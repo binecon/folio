@@ -1,6 +1,6 @@
 Title: Garden App
 Date: 2023-09-10
-Slug: garden app
+Slug: gardenapp
 Summary: Connecting mobile AR users with an outdoor garden space 
 
 **Connecting users with an outdoor garden space** 
