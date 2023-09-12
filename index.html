@@ -1,146 +1,60 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
-    <head>
+<html lang="en">
+<head>
+        <title>portfolio</title>
         <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <link href="http://localhost:8000/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="portfolio Full Atom Feed" />
+</head>
 
-        <!-- General medatada -->
-        <meta name="author" content="bine" />
-        <meta name="title" content="ZUHAUSE" />
-        <meta name="description" content="explaination" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://localhost:8000/">portfolio</a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+            <li><a href="http://localhost:8000/category/blog.html">blog</a></li>
+        </ul></nav><!-- /#menu -->
+<section id="content">
+<h2>All articles</h2>
 
-        <!-- Page title -->
-        <title>ZUHAUSE</title>
-
-        <!-- Favicon 
-        <link rel="icon" type="image/png" href="http://localhost:8000/images/logo_16.png" sizes="16x16" />
-        <link rel="icon" type="image/png" href="http://localhost:8000/images/logo_32.png" sizes="32x32" />
-        <link rel="icon" type="image/png" href="http://localhost:8000/images/logo_96.png" sizes="96x96" />
--->
-        <!-- CSS -->
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="http://localhost:8000/theme/css/main.css" />
-
-        <!-- RSS and Atom feeds 
-        <link
-            href="http://localhost:8000/feeds/all.atom.xml"
-            type="application/atom+xml"
-            rel="alternate"
-            title="alpha Atom Feed"
-        />
- 
-        <!-- Block for additional page specific header tags -->
-        <!-- prettier-ignore -->
-<style>
-    body {
-        background: #fff5d1;
-    }
-</style>
-
-        
-    </head>
-
-    <body class="d-flex flex-column h-100">
-        <!-- Navigation bar -->
-        <header class="border-bottom p-1 bg-dark">
-           
-             <!-- some header element -->
-            <nav class="navbar bg-warning navbar-expand">
-                <a class="navbar-brand text-dark" href="http://localhost:8000"
-                    >
-                    <img id="test" src="http://localhost:8000/images/two.png" class="logo mr-2" alt="back" />
-                </a>
-               
-              <!--  if(window.location.href == "http://localhost:8000"){
-                    document.getElementById('test').display = 'none'};-->
-                
-                <script>
-                if (/test-article2.html/.test(window.location.href)) {
-                document.getElementById('test').style.display = 'block';}
-                else {
-                document.getElementById('test').style.display = 'none';}
-                </script>
-               
-
-                <!--<ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="p-2 text-dark" href="http://localhost:8000">Home</a>
-                    </li>
-                  <li class="nav-item">
-                        <a class="p-2 text-dark" href="http://localhost:8000/blog">Blog</a>
-                    </li>
-                </ul>-->
-            </nav>
-        </header>
-
-        <!-- Page content block -->
-<div class="container">
-    
-    <article class="container row mt-4 blog-post bg-info p-3">
-        <div class="col-sm mb-4">
-            Some paragraph here including the link to the 
-            <a
-                href="http://localhost:8000/test-article2.html"
-                class="text-dark"
-                rel="bookmark"
-                title="Projects"
-                >Projects</a
-            >
-          
-            followed by a different paragraph.<br/>
-            A paragraph here text text text <br/>
-            And another paragraph here.
-        </div>
-            <div class="col-sm bg-primary width-25">
-                <img class="float-right" src="http://localhost:8000/images/UX_vs_UI.jpg" />
-            </div>
-        </div>
-        
-       
-        <!--<img src="http://localhost:8000/images/UX_vs_UI.png" class="photo"/>-->
-                
-        <!-- do not show date and author on home page
-            <p class="text-muted">Sat 15 April 2023 by <a href="http://localhost:8000">bine</a></p>
-        <p>
-            Some summary of the test article
-            <a href="http://localhost:8000/test-article2.html">Read more...</a>
-        </p>-->
-    </article>
-    
-</div>
-
-        <!-- Footer -->
-        <footer class="footer bg-success mt-auto py-3 site-footer text-center text-muted">
-            <div class="container">
-                <span class=""><a>check it out: page size: 800KB</a></span>
-            </div>
-        </footer>
-
-        <!-- JavaScript -->
-        <script src="https://kit.fontawesome.com/0598d5a60d.js" crossorigin="anonymous"></script>
-        <script
-            src="https://code.jquery.com/jquery-3.5.0.min.js"
-            integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"
-        >
-        </script>
-        <!--<script src="http://localhost:8000/theme/js/main.js"></script>-->
-
-        <!-- Optional page specific scripts block -->
-     </body>
+<ol id="post-list">
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="http://localhost:8000/herzbahnhof.html" rel="bookmark" title="Permalink to Herzbahnhof">Herzbahnhof</a></h2> </header>
+                <footer class="post-info">
+                    <time class="published" datetime="2023-09-11T00:00:00+02:00"> Mon 11 September 2023 </time>
+                    <address class="vcard author">By
+                        <a class="url fn" href="http://localhost:8000/author/bine.html">bine</a>
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <p>Creating a website to promote rural development</p> </div><!-- /.entry-content -->
+        </article></li>
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="http://localhost:8000/gardenapp.html" rel="bookmark" title="Permalink to Garden App">Garden App</a></h2> </header>
+                <footer class="post-info">
+                    <time class="published" datetime="2023-09-10T00:00:00+02:00"> Sun 10 September 2023 </time>
+                    <address class="vcard author">By
+                        <a class="url fn" href="http://localhost:8000/author/bine.html">bine</a>
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <p>Connecting mobile users with an outdoor garden</p> </div><!-- /.entry-content -->
+        </article></li>
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="http://localhost:8000/communityboard.html" rel="bookmark" title="Permalink to CocoBoard">CocoBoard</a></h2> </header>
+                <footer class="post-info">
+                    <time class="published" datetime="2023-09-09T00:00:00+02:00"> Sat 09 September 2023 </time>
+                    <address class="vcard author">By
+                        <a class="url fn" href="http://localhost:8000/author/bine.html">bine</a>
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <p>Coming soon: Networking hub coworking / coliving community</p> </div><!-- /.entry-content -->
+        </article></li>
+</ol><!-- /#posts-list -->
+</section><!-- /#content -->
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
 </html>

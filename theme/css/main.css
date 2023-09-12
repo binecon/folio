@@ -27,7 +27,6 @@ body {
 
 a {
     color: #3498db;
-    text-decoration: underline;
 }
 
 a:hover {
@@ -112,6 +111,11 @@ a:hover {
 .blog-post-title:hover {
     text-decoration: none;
 }
+.blog-post-title {
+    text-decoration: none;
+}
+
+
 
 /* Start page */
 
@@ -133,4 +137,19 @@ a:hover {
 
 .vote-link:hover {
     fill: #2873a6;
+}
+
+.article_title {
+    text-decoration: none;
+    color: rgb(99, 145, 218);
+}
+
+.contact {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.projects {
+    text-decoration: underline;
+   
 }
