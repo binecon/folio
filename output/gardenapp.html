@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8" />
+
+        <!-- General medatada -->
+        <meta name="author" content="bine" />
+        <meta name="title" content="Garden App" />
+        <meta name="description" content="Connecting mobile users with an outdoor garden" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Page title -->
+        <title>Garden App</title>   
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="http://localhost:8000/extra/favicon.ico" rel="stylesheet"/>
+        <link rel=“icon” href=”favicon.ico” type=“image/x-icon”>
+        <link rel=“shortcut icon” href=“favicon.ico” type=“image/x-icon”>
+
+        <!-- CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="http://localhost:8000/theme/css/main.css" />
+
+        <!-- RSS and Atom feeds 
+        <link
+            href="http://localhost:8000/feeds/all.atom.xml"
+            type="application/atom+xml"
+            rel="alternate"
+            title="portfolio Atom Feed"
+        />
+ 
+        <!-- Block for additional page specific header tags -->
+        <!-- prettier-ignore -->
+        
+    </head>
+
+    <body class="d-flex flex-column h-100">
+        <!-- Navigation bar -->
+        <header class="border-bottom py-1 bg-dark">
+           
+             <!-- some header element -->
+            <nav class="navbar navbar-expand">
+               <a class="navbar-brand text-dark" href="http://localhost:8000"
+                    >
+                    <img id="test" src="http://localhost:8000/images/two.png" class="logo mr-2" alt="back" />
+                </a>
+              <!-- 
+                    <img src="http://localhost:8000/images/home_rosa.png" />
+                -->
+               
+              <!--  if(window.location.href == "http://localhost:8000"){
+                    document.getElementById('test').display = 'none'};-->
+                
+
+                <script>
+                    if (/herzbahnhof.html/.test(window.location.href))
+                    {
+                        document.getElementById('test').style.display='block';
+                    }
+                        else if (/gardenapp.html/.test(window.location.href))
+                        {
+                        document.getElementById('test').style.display='block';
+                    }
+                        else 
+                        {
+                        document.getElementById('test').style.display='none';
+                    }
+                </script>
+                
+            
+                <!--<ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="p-2 text-dark" href="http://localhost:8000">Home</a>
+                    </li>
+                  <li class="nav-item">
+                        <a class="p-2 text-dark" href="http://localhost:8000/blog">Blog</a>
+                    </li>
+                </ul>-->
+            </nav>
+
+        </header>
+
+        <!-- Page content block -->
+<div class="container">
+    <main role="main" class="container  width-8">
+        <article class="blog-post">
+            <header class="my-5">
+                <!--<h4>
+                    <p  href="http://localhost:8000/gardenapp.html"
+                        class="text-dark"
+                        rel="bookmark"
+                        title="Permalink to Garden App"
+                        >Garden App</p
+                    >
+                </h4>          -->
+            </header>
+            
+            <div class="article-content">
+                <h3 class="mb-4 text-bold text-primary">
+                Garden App</h4>
+                </h3>
+                <p>
+                <p><strong>Connecting users with an outdoor garden</strong> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The garden app is a mobile application for interacting with a garden environment and learning about its ecosystems. A mobile augmented reality app was created in an iterative process, using low-fidelity mockups and hi-fi prototypes built with Unity. By taking a <em>user-centered design</em> approach, a complex interplay of different UX factors were revealed and the design could be optimised. As a result, the garden app is now an inspiring tool in the eyes of its users.</p>
+<p><img alt="wf" src="/images/gardenapp2a.png" title="gardenapp wireframe"> </p>
+<hr>
+<p><strong>Challenge:</strong> How can people reconnect with nature? Interviews with inhabitants who live in urban spaces showed that all wish to spend more time in nature yet spend more actual time with their digital devices and detached from their immediate surroundings. A deep connection with nature is commonly associated with wellbeing. How to achieve it?</p>
+<p><strong>Solution:</strong> An augmented reality app that blends the digital space and a garden space - a mobile app that incites users to interact with the garden and learn more about its ecosystems.</p>
+<hr>
+<p><strong>RESEARCH</strong></p>
+<p><strong>Data collection with interviews:</strong></p>
+<p>In-depth interviews with 11 people were conducted. Reconnecting with and gaining more knowledge about nature were important to all participants. As a design requirement, the app should replicate the process of understanding how plants and insects are interconnected and serve each other. This required some followup <em>research into natural ecosystems</em> to inform the app design.</p>
+<p>In permaculture, which is a popular agriculture design theory and system, so called 'plant guilds' describe a symbiotic co-existance in nature. The permaculture principles were replicated in the garden app design.</p>
+<hr>
+<p><strong>UX DESIGN</strong></p>
+<p><strong>User Flow:</strong></p>
+<p>A user trajectory was created upon a path as design pattern. On the path, 'guilding' garden plants, such as thyme, borage, and broccoli, are visited by users. Screens and camera on the device alternate while the user is exploring the outdoor surrounding. User instructions are displayed and the camera is used for automatic recording of physical markers which trigger the AR experience. Information in the blended space motivate users to directly engage with the garden plants, e.g. "smell", or "taste".</p>
+<p><img alt="wf" src="/images/userflow.png" title="gardenapp userflow"> </p>
+<hr>
+<p><strong>USER TESTING &amp; EVALUATION</strong></p>
+<p><strong>User testing:</strong></p>
+<p>For user testing, wireframe screens of garden app were created and tested, supported by the <em>Wizard of Oz</em> technique. The first iteration with three participants showed unfamiliarity with AR technology, i.e. scanning of physical markers to capture objects and augmented information. Another issue were augmented buttons which weren't obvious.</p>
+<p>In the next iteration the above issues were adressed: </p>
+<ul>
+<li>A screen was added with a short and clear instruction how to display augmented information</li>
+<li>AR-buttons were redesigned to have a similar screen location as the conventional (non-AR) buttons from the previous screens. With this, the AR-buttons could be easily recognised by the users</li>
+</ul>
+<p><img alt="screens_buttons" src="/images/buttons_same.png" title="wireframes_buttons"> </p>
+<hr>
+<p><strong>User testing outdoors:</strong></p>
+<p>Next, a high-fidelity prototype of the garden app was implemented using Unity and tested in the garden. </p>
+<p><img alt="map" src="/images/gardenmap.png" title="outdoor testing"> </p>
+<p>Outdoor user testing with this design iteration revealed severe accessibilty issues: The users needed to crouch and move their device closely to the marker and plant object in order to decipher the augmented information. An issue that did not occur in a sitting position in the previous testings with the lo-fi prototypes. </p>
+<ul>
+<li>healing of the invisible / inaccessible content issue was attempted by resizing the information in the AR-layers   </li>
+</ul>
+<p><strong>Questionaire and post-testing interview:</strong></p>
+<p>For UX assessment after testing, an AttrakDiff questionaire as well as short interviews were used. The participants reported an enjoyable engagement with the blended garden spaces and deep sensual experiences in the garden when using the garden app.</p>
+<hr>
+<p><strong>TAKE AWAY &amp; LEARNING</strong></p>
+<ul>
+<li>AR-layers in a mobile app need to be especially accessible due to additional UX factors in the physical space</li>
+<li>A deepened connection with natural environments can be experienced when using the garden app via AR technology</li>
+</ul>
+                </p>
+                <br/>
+                
+            </div>
+        </article>
+    </main>
+</div>
+
+        <!-- Footer -->
+        <footer class="footer mt-auto py-3 site-footer text-center text-muted">
+            <a class="ml-4 float-left" href="http://localhost:8000"
+            >
+            <img id="back" src="http://localhost:8000/images/one.png" class="logo mr-2" alt="back" />
+        </a>
+            <div class="container">
+                <span class=""><a>SabCon © 2023</a></span>
+            </div>
+        </footer>
+
+        <!-- JavaScript -->
+        <script src="https://kit.fontawesome.com/0598d5a60d.js" crossorigin="anonymous"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.5.0.min.js"
+            integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"
+        >
+        </script>
+
+
+        <!--<script src="http://localhost:8000/theme/js/main.js"></script>-->
+
+        <!-- Optional page specific scripts block -->
+     </body>
+</html>

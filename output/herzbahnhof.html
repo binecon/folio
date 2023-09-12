@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8" />
+
+        <!-- General medatada -->
+        <meta name="author" content="bine" />
+        <meta name="title" content="Herzbahnhof" />
+        <meta name="description" content="Creating a website to promote rural development" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Page title -->
+        <title>Herzbahnhof</title>   
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="http://localhost:8000/extra/favicon.ico" rel="stylesheet"/>
+        <link rel=“icon” href=”favicon.ico” type=“image/x-icon”>
+        <link rel=“shortcut icon” href=“favicon.ico” type=“image/x-icon”>
+
+        <!-- CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="http://localhost:8000/theme/css/main.css" />
+
+        <!-- RSS and Atom feeds 
+        <link
+            href="http://localhost:8000/feeds/all.atom.xml"
+            type="application/atom+xml"
+            rel="alternate"
+            title="portfolio Atom Feed"
+        />
+ 
+        <!-- Block for additional page specific header tags -->
+        <!-- prettier-ignore -->
+        
+    </head>
+
+    <body class="d-flex flex-column h-100">
+        <!-- Navigation bar -->
+        <header class="border-bottom py-1 bg-dark">
+           
+             <!-- some header element -->
+            <nav class="navbar navbar-expand">
+               <a class="navbar-brand text-dark" href="http://localhost:8000"
+                    >
+                    <img id="test" src="http://localhost:8000/images/two.png" class="logo mr-2" alt="back" />
+                </a>
+              <!-- 
+                    <img src="http://localhost:8000/images/home_rosa.png" />
+                -->
+               
+              <!--  if(window.location.href == "http://localhost:8000"){
+                    document.getElementById('test').display = 'none'};-->
+                
+
+                <script>
+                    if (/herzbahnhof.html/.test(window.location.href))
+                    {
+                        document.getElementById('test').style.display='block';
+                    }
+                        else if (/gardenapp.html/.test(window.location.href))
+                        {
+                        document.getElementById('test').style.display='block';
+                    }
+                        else 
+                        {
+                        document.getElementById('test').style.display='none';
+                    }
+                </script>
+                
+            
+                <!--<ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="p-2 text-dark" href="http://localhost:8000">Home</a>
+                    </li>
+                  <li class="nav-item">
+                        <a class="p-2 text-dark" href="http://localhost:8000/blog">Blog</a>
+                    </li>
+                </ul>-->
+            </nav>
+
+        </header>
+
+        <!-- Page content block -->
+<div class="container">
+    <main role="main" class="container  width-8">
+        <article class="blog-post">
+            <header class="my-5">
+                <!--<h4>
+                    <p  href="http://localhost:8000/herzbahnhof.html"
+                        class="text-dark"
+                        rel="bookmark"
+                        title="Permalink to Herzbahnhof"
+                        >Herzbahnhof</p
+                    >
+                </h4>          -->
+            </header>
+            
+            <div class="article-content">
+                <h3 class="mb-4 text-bold text-primary">
+                Herzbahnhof</h4>
+                </h3>
+                <p>
+                <p><strong>Creating a website to promote rural development</strong> </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last summer 2022 I joined a creative pop-up space in an old train station in the small rural town of Herzberg (Elster). I designed the website „Herzbahnhof“ for two reasons. First, provide detailed information to Herzberg's citzens and interested persons about the temporary creative space. Second, collect ideas from the website's visitors about how the old train station could be used in future.</p>
+<p><img alt="back button" src="/images/herzbhf.png" title="image of Herzbahnhof landing page"></p>
+<p><strong>Roles:</strong></p>
+<ul>
+<li>User Research </li>
+<li>UI Design</li>
+<li>Web development</li>
+</ul>
+<p><strong>Tools:</strong></p>
+<ul>
+<li>Figma, Miro</li>
+<li>Visual Studio Code</li>
+<li>HTML, CSS, JavaScript</li>
+</ul>
+<hr>
+<p><strong>Challenge:</strong>
+Qualitative interviewing of visitors in the pop-up space revealed a wealth of thoughts and ideas about the future of the train station. But how could more voices be heard and a higher quantitity of ideas be collected? </p>
+<p><strong>Solution:</strong>
+I decided to support the idea collection with an online form on a website of the building. An easy and straightforward way to let people contribute their ideas in a simple form placed in the center of the landing page. Finally, the collected data should inspire more elaborate concepts about the building's prospective utilisation.</p>
+<hr>
+<p><strong>RESEARCH</strong></p>
+<p><strong>Data collection and analysis:</strong></p>
+<p>From the interviews, I extracted the participants' ideas and sorted them into clusters. The analysis revealed two main projections for the building's "identity", made up out of its historic retrospective and future continuation. </p>
+<p><img alt="clusters" src="/images/miro.png" title="idea clusters past future"></p>
+<p>These two main dimensions needed to be represented on the "Herzbahnhof" website. A navigation bar was created, with two menu items and respective page sections that would provide detailed information regarding the past and future of the train station. To draw users' attention to these notions, the navbar is kept simple with only these to menu items ("Geschichte" and "Perspektiven"). </p>
+<p><strong>Testing the navigation menu wording:</strong></p>
+<p>Three test persons were asked for their preference regarding the nav items' wording. They rejected the term "future" for its absoluteness. Instead, the term was exchanged by the more open and flexible "Perspektiven", indicating the subjective nature of the ideas for the building's possible future.</p>
+<p>Feedback on successful form input was required by all test users. A page was added which is now displayed on form submission.</p>
+<p><img alt="feedback page" src="/images/danke.png" title="danke für Ihre Idee!"></p>
+<hr>
+<p><strong>UI DESIGN</strong></p>
+<p><strong>Form elements:</strong></p>
+<p>Apart from the navigation bar, the other central element on the landing page is the form. Placed below in the center between past and future below the navigation, it refers to the present time. I chose a yellow background, a signal colour, that it used on train station timetables to indicate departure times of trains. The font type is kept in a style similar to the proprietary DB type. </p>
+<p><strong>Logo:</strong></p>
+<p>I created a logo to communicate the uniqueness of the building as reported in the interviews with the Herzberg inhabitants. It shows a heart and the German abbreviation "Bhf" for train station inside, which refers to a pun made up from the words Herzberg and Bahnhof "Herzbahnhof". </p>
+<p><img alt="logo" src="/images/logo.png" title="herzbhf logo"></p>
+<hr>
+<p><strong>DEVELOPMENT</strong></p>
+<p>I implemented the website with Visual Studio Code and common web technologies (HTML, CSS, and JavaScript) while using as little client-side rendering as possible, for mindful energy use. I included a Google-Api for an online spreadsheet which serves as a database for user data inputted via the form.</p>
+<hr>
+<p><strong>TAKE AWAYS &amp; LEARNINGS</strong></p>
+<ul>
+<li>Designing for digitally enabled citizen participation implies expertise about the procedures and implementation of local politics. Questions were raised by Herzberg's inhabitants about the purpose of the idea collection regarding any impacts on the old train station as a public space. For these reasons, I decided not to deploy the website.</li>
+<li>A focus on either UI/UX design, user research, technical development or on product management is recommended when creating digitial applications which may have political impact.</li>
+</ul>
+                </p>
+                <br/>
+                
+            </div>
+        </article>
+    </main>
+</div>
+
+        <!-- Footer -->
+        <footer class="footer mt-auto py-3 site-footer text-center text-muted">
+            <a class="ml-4 float-left" href="http://localhost:8000"
+            >
+            <img id="back" src="http://localhost:8000/images/one.png" class="logo mr-2" alt="back" />
+        </a>
+            <div class="container">
+                <span class=""><a>SabCon © 2023</a></span>
+            </div>
+        </footer>
+
+        <!-- JavaScript -->
+        <script src="https://kit.fontawesome.com/0598d5a60d.js" crossorigin="anonymous"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.5.0.min.js"
+            integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"
+        >
+        </script>
+
+
+        <!--<script src="http://localhost:8000/theme/js/main.js"></script>-->
+
+        <!-- Optional page specific scripts block -->
+     </body>
+</html>
