@@ -75,4 +75,5 @@ I implemented the website with Visual Studio Code and common web technologies (H
 **TAKE AWAYS & LEARNINGS**
 
 + Designing for digitally enabled citizen participation implies expertise about the procedures and implementation of local politics. Questions were raised by Herzberg's inhabitants about the purpose of the idea collection regarding any impacts on the old train station as a public space. For these reasons, I decided not to deploy the website.
+
 + A focus on either UI/UX design, user research, technical development or on product management is recommended when creating digitial applications which may have a political impact.
